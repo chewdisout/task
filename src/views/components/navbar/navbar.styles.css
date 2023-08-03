@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 100vw;
+    height: 30px;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.navbar-item {
+    text-transform: uppercase;
+}
+
+.navbar-item a {
+    color: white;
+}

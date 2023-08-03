@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Poppins-regular;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins-regular', sans-serif;
+}
+
+.form-submit button {
+    background-color:#0a0a23;
+    cursor: pointer;
+    color: #fff;
+    border: none; 
+    border-radius: 10px; 
+    padding: 15px;
+    min-height: 30px; 
+    min-width: 120px;
+}
+
+.form-submit button:hover {
+    background-color:#35357a;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-input input {
+    background-color: #fff;
+	border: 1px solid #0a0a23;
+    border-radius: 10px;
+	padding: 0.9rem 0.9rem;
+	margin: 0.5rem 0;
+	width: 100%;
+}

@@ -1,0 +1,18 @@
+CREATE TABLE users (
+	user_id int(11) AUTO_INCREMENT PRIMARY KEY not null,
+    users_username TINYTEXT not null,
+    users_password LONGTEXT not null
+);
+
+CREATE TABLE categories ( 
+    category_id int(11) AUTO_INCREMENT PRIMARY KEY not null, 
+    category_title LONGTEXT not null, 
+    category_description LONGTEXT not null
+);
+
+CREATE TABLE sub_categories ( 
+    sub_category_id int(11) PRIMARY KEY not null, 
+    sub_category_title LONGTEXT not null, 
+    sub_category_description LONGTEXT not null,
+    parent_category_id int(11) not null
+);
